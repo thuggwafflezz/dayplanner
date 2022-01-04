@@ -16,7 +16,7 @@ function displayTime(){
     timeDisplayEl.text(today)
 }
 
-/set current hour
+//set current hour
 var currentHour = moment().hour()
 //determine block time and check block time against current time
 $('.time-block').each(function(){
